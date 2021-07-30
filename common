@@ -12,3 +12,12 @@
       固态硬盘速度是300M每秒，是内存的二百分之一
 
       机械硬盘的速度是100M每秒，是内存的五百分之一
+      
+      
+      任何fd都有 : 0 -> 输入    1 -> 输出   2 -> error
+      
+      /proc --> 内核映射文件
+      /proc/$$ 当前bash 同等于 $BASHPID
+      /proc/$$/fd -->文件描述符  查看command :lsof -op $$ (if lsof command not found ,just execute commmand: yum install lsof )
+      
+      
